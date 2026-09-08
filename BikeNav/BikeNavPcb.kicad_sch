@@ -2854,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 110.49 115.57)
+			(xy 110.49 133.35) (xy 114.3 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 120.65) (xy 110.49 120.65)
+			(xy 110.49 128.27) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 130.81) (xy 110.49 130.81)
+			(xy 110.49 118.11) (xy 114.3 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 133.35) (xy 110.49 133.35)
+			(xy 110.49 115.57) (xy 114.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 110.49 123.19)
+			(xy 110.49 125.73) (xy 114.3 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 128.27) (xy 110.49 128.27)
+			(xy 110.49 120.65) (xy 114.3 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3234,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 118.11) (xy 110.49 118.11)
+			(xy 110.49 130.81) (xy 114.3 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3274,7 +3274,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 125.73) (xy 110.49 125.73)
+			(xy 110.49 123.19) (xy 114.3 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3493,22 +3493,22 @@
 		(uuid "8bd11636-1bf0-479a-bfaa-937b5c2044d5")
 	)
 	(label "SCK"
-		(at 114.3 118.11 0)
+		(at 110.49 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "958fb5e4-60d2-4349-9bd7-1227edfeff7b")
 	)
 	(label "SDA"
-		(at 114.3 120.65 0)
+		(at 110.49 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "985efda1-00bf-456c-ae5d-1d7fc802696c")
 	)
@@ -3543,12 +3543,12 @@
 		(uuid "a326a2e8-06e2-414c-b88a-18fc4a9609e3")
 	)
 	(label "A0"
-		(at 114.3 123.19 0)
+		(at 110.49 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a5d52768-48e1-4dc7-9b4f-612372e020d9")
 	)
@@ -3563,12 +3563,12 @@
 		(uuid "aae37fb2-9818-4383-bc5e-5059f2f22f42")
 	)
 	(label "CS"
-		(at 114.3 128.27 0)
+		(at 110.49 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "adb19e23-24cf-4977-8899-57ad6be11562")
 	)
@@ -3653,48 +3653,48 @@
 		(uuid "e3d8ebfa-5fa6-4e8e-9fe0-832d85c99fc0")
 	)
 	(label "OUT-"
-		(at 114.3 130.81 0)
+		(at 110.49 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "effd11dd-341a-4497-b8a9-881d8f56f73d")
 	)
 	(label "BACKLIGHT"
-		(at 114.3 115.57 0)
+		(at 110.49 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f96a9afb-c059-42ff-923e-db33cca7bde8")
 	)
 	(label "RESET"
-		(at 114.3 125.73 0)
+		(at 110.49 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fdc52692-f1a7-4310-b7d6-3f43531784b4")
 	)
 	(label "OUT+"
-		(at 114.3 133.35 0)
+		(at 110.49 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "feffae8e-9bc2-4596-a32a-591247eec9d8")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 105.41 123.19 0)
+		(at 119.38 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3704,7 +3704,7 @@
 		(dnp no)
 		(uuid "0b8bd9cd-6330-4a70-aa63-cc8bdf16cbbc")
 		(property "Reference" "J9"
-			(at 110.744 102.616 0)
+			(at 115.57 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Value" "1.8 TFT SPi 128x160 pins"
-			(at 110.998 106.172 0)
+			(at 112.776 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3723,8 +3723,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 105.41 123.19 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3735,7 +3735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 123.19 0)
+			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +3746,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 105.41 123.19 0)
+			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
